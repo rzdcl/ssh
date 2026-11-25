@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "hosts": [
+    {
+      "alias": "robot-1",
+      "host": "192.168.1.10",
+      "port": 22,
+      "user": "robot",
+      "password": "换成你的密码",
+      "device": "四足机器人",
+      "tags": ["lan", "robot"],
+      "note": "示例条目，复制成 hosts.json 后按需修改"
+    },
+    {
+      "alias": "server-cloud",
+      "host": "203.0.113.10",
+      "port": 22223,
+      "user": "deploy",
+      "password": "",
+      "device": "",
+      "tags": ["cloud"],
+      "note": "公网服务器，端口非 22"
+    }
+  ]
+}

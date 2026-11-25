@@ -1,0 +1,23 @@
+# 凭证与私钥永不入库
+hosts.json
+keys/
+backup/
+dist/
+dist_gui/
+dist_cli/
+pyi/
+pyi_gui/
+pyi_cli/
+build/pyi/
+build/pyi_cli/
+__pycache__/
+*.pyc
+
+# 打包产物
+RZDCL.exe
+RZDCL-cli.exe
+*.zip
+
+# 本地临时
+*.log
+*.tmp
