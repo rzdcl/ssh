@@ -6,6 +6,19 @@ Windows / Ubuntu 双平台，同一份源码，单文件可执行免安装。
 
 ![主界面](界面预览.png)
 
+## 下载（免安装）
+
+成品在 [Releases](https://github.com/rzdcl/ssh/releases/latest) 里，不用装 Python：
+
+| 文件 | 平台 | 说明 |
+|---|---|---|
+| `RZDCL.exe` | Windows x64 | 图形界面主程序，双击即用 |
+| `RZDCL-cli.exe` | Windows x64 | 命令行版，给 AI / 脚本读凭证跑命令 |
+| `RZDCL-linux-x86_64` | Ubuntu 22.04+ | 图形界面，`chmod +x RZDCL-linux-x86_64` 后运行 |
+| `RZDCL-cli-linux-x86_64` | Ubuntu 22.04+ | 命令行版，同样先 `chmod +x` |
+
+凭证库 `hosts.json` 不在仓库里（含真实密码），自己放一份到程序同级目录即可自动读取。
+
 ## 功能
 
 | | 说明 |
